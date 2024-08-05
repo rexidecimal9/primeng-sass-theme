@@ -4,7 +4,7 @@ $overlayContentBorder: 0 none;
 
 /// Background of an overlay container element such as dialog or overlaypanel
 /// @group overlay
-$overlayContentBg:$panelContentBg;
+$overlayContentBg: $panelContentBg;
 
 /// Box shadow of an overlay container element such as dialog or overlaypanel
 /// @group overlay
@@ -12,7 +12,7 @@ $overlayContainerShadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
 
 /// Background of a dialog header
 /// @group overlay
-$dialogHeaderBg: #ffffff;
+$dialogHeaderBg: $panelContentBg;
 
 /// Border of a dialog header
 /// @group overlay

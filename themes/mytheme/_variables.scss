@@ -1,8 +1,29 @@
 // Theme Specific Variables
-$primaryColor: #2196F3;
-$primaryDarkColor: #1E88E5;
+$primaryColor: #48f2fb;
+$primaryDarkColor: #77cfe1;
 $primaryDarkerColor: #1976D2;
-$primaryTextColor: #ffffff;
+
+// Map all the colors used throughout the theme to these variables, we can add more as needed
+// Note: These variables need to be defined in order to use but root variables do not (the are references)
+$primaryTextColor: var(--primary-text-color);
+$secondaryTextColor: var(--secondary-text-color);
+
+$secondaryColor: #e867ea;
+$tertiaryColor: #c1d82f;
+
+$input-bg-color: var(--surface-a);
+$panel-content-bg-color: #2e2e2e; // ALSO surface A but has dependencies that require actual color
+$menu-bg-color: var(--surface-a);
+$surface-hover-bg-color: var(--surface-hover);
+
+// CHIPS
+$chip-bg-color: #252525;
+$chipTextColor: var(--primary-text-color);
+
+// TABLE (Probably easier to just add the shade color it's already)
+$tableHeaderBorder: 1px solid var(--surface-b) !default;
+
+$gradient-bg: linear-gradient(45deg, $primaryColor 0%, black 20%, black 80%, $secondaryColor 100%);
 
 $colors: (
     "blue": #2196F3,
@@ -16,7 +37,9 @@ $colors: (
     "bluegray": #607D8B,
     "purple": #9C27B0,
     "red": #FF4032,
-    "primary": $primaryColor
+    "primary": $primaryColor,
+    "secondary": $secondaryColor,
+    "tertiary": $tertiaryColor
 );
 
 // Mandatory Designer Variables
@@ -34,16 +57,18 @@ $colors: (
 :root {
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --surface-a:#ffffff;
-    --surface-b:#f8f9fa;
-    --surface-c:#e9ecef;
-    --surface-d:#dee2e6;
-    --surface-e:#ffffff;
-    --surface-f:#ffffff;
-    --text-color:#495057;
-    --text-color-secondary:#6c757d;
-    --primary-color:#2196F3;
+    --surface-a: #2e2e2e;
+    --surface-b: #252525;
+    --surface-c:#202020;
+    --surface-d:#ecd823;
+    --surface-e:#eb1d1d;
+    --surface-f:#030303;
+    --text-color:#d9dfe4;
+    --text-color-secondary:#8f9499;
+    --primary-color:#48f2fb;
     --primary-color-text:#ffffff;
+    --secondary-color: #e867ea;
+    --tertiary-color: #c1d82f;
     --surface-0: #ffffff;
     --surface-50: #FAFAFA;
     --surface-100: #F5F5F5;
@@ -63,10 +88,10 @@ $colors: (
     --surface-card:#ffffff;
     --surface-overlay:#ffffff;
     --surface-border:#dee2e6;
-    --surface-hover:#e9ecef;
+    --surface-hover:#009688;
     --maskbg: #{$maskBg};
     --highlight-bg: #{$highlightBg};
     --highlight-text-color: #{$highlightTextColor};
     --focus-ring: #{$focusShadow};
-    color-scheme: light;
+    color-scheme: dark;
 }

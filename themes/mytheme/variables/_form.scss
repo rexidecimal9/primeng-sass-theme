@@ -4,7 +4,7 @@ $inputPadding: .5rem .5rem;
 
 /// Background of an input field
 /// @group form
-$inputBg: #ffffff;
+$inputBg: $input-bg-color;
 
 /// Font size of an input field
 /// @group form
@@ -64,7 +64,7 @@ $inputGroupAddOnMinWidth: 2.357rem;
 
 /// Background of an input list such as dropdown, listbox, multiselect
 /// @group form
-$inputListBg: #ffffff;
+$inputListBg: $input-bg-color;
 
 /// Text color of an input list
 /// @group form
@@ -92,7 +92,7 @@ $inputListItemTextColor: $textColor;
 
 /// Hover state background for an individual itrem of an input list
 /// @group form
-$inputListItemHoverBg: #e9ecef;
+$inputListItemHoverBg: $surface-hover-bg-color;
 
 /// Hover state text color for an individual itrem of an input list
 /// @group form
