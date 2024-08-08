@@ -16,6 +16,8 @@ $panel-content-bg-color: #2e2e2e; // ALSO surface A but has dependencies that re
 $menu-bg-color: var(--surface-a);
 $surface-hover-bg-color: var(--surface-hover);
 
+$highlight-bg: #009688; // Same as surface-hover but dependency issue
+
 // CHIPS
 $chip-bg-color: #252525;
 $chipTextColor: var(--primary-text-color);

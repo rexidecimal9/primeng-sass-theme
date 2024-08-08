@@ -100,7 +100,7 @@ $menuitemIconActiveColor: $textSecondaryColor;
 
 /// Background of a menuitrem in active state
 /// @group menu
-$menuitemActiveBg: #e9ecef;
+$menuitemActiveBg: $surface-hover-bg-color;
 
 /// Background of a menuitem in active and focus states
 /// @group menu
