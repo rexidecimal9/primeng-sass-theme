@@ -12,18 +12,31 @@ $secondaryColor: #e867ea;
 $tertiaryColor: #c1d82f;
 
 $input-bg-color: var(--surface-a);
+$panel-header-bg-color: var(--surface-a);
 $panel-content-bg-color: #2e2e2e; // ALSO surface A but has dependencies that require actual color
 $menu-bg-color: var(--surface-a);
 $surface-hover-bg-color: var(--surface-hover);
 
 $highlight-bg: #009688; // Same as surface-hover but dependency issue
 
+// TOOLTIP
+$tooltip-bg-color: var(--surface-b);
+
+// BUTTONS
+$button-text-color: #252525;
+
 // CHIPS
 $chip-bg-color: #252525;
 $chipTextColor: var(--primary-text-color);
 
 // TABLE (Probably easier to just add the shade color it's already)
-$tableHeaderBorder: 1px solid var(--surface-b) !default;
+$table-header-footer-bg-color: #252525;
+$table-body-background-color: #252525;
+$table-hover-color: var(--surface-c);
+
+// SKELETON
+$skeletonBg: rgba(255, 255, 255, 0.06) !default;
+$skeletonAnimationBg: rgba(255, 255, 255, 0.04) !default;
 
 $gradient-bg: linear-gradient(45deg, $primaryColor 0%, black 20%, black 80%, $secondaryColor 100%);
 

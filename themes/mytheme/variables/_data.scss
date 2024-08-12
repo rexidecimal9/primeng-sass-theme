@@ -92,7 +92,7 @@ $tableHeaderCellPadding: 1rem 1rem;
 
 /// Background of a table header cell
 /// @group data
-$tableHeaderCellBg: #f8f9fa;
+$tableHeaderCellBg: $table-header-footer-bg-color;
 
 /// Text color of a table header cell
 /// @group data
@@ -112,7 +112,7 @@ $tableHeaderCellBorderWidth: 0 0 1px 0;
 
 /// Background of a table header cell in hover state
 /// @group data
-$tableHeaderCellHoverBg: #e9ecef;
+$tableHeaderCellHoverBg: $table-hover-color;
 
 /// Text color of a table header cell in hover state
 /// @group data
@@ -148,7 +148,7 @@ $tableSortableColumnBadgeSize: 1.143rem;
 
 /// Background of a table body row
 /// @group data
-$tableBodyRowBg: #ffffff;
+$tableBodyRowBg: $table-body-background-color;
 
 /// Text color of a table body row
 /// @group data
@@ -160,7 +160,7 @@ $tableBodyRowEvenBg: #ffffff;
 
 /// Background of a table body row in hover state
 /// @group data
-$tableBodyRowHoverBg: #e9ecef;
+$tableBodyRowHoverBg: $table-hover-color;
 
 /// Text color of a table body row in hover state
 /// @group data
@@ -184,7 +184,7 @@ $tableFooterCellPadding: 1rem 1rem;
 
 /// Background of a table footer cell
 /// @group data
-$tableFooterCellBg: #f8f9fa;
+$tableFooterCellBg: $table-header-footer-bg-color;
 
 /// Text color of a table footer cell
 /// @group data
