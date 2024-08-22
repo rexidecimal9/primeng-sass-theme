@@ -12,8 +12,9 @@ $secondaryColor: #e867ea;
 $tertiaryColor: #c1d82f;
 
 $input-bg-color: var(--surface-a);
-$panel-header-bg-color: var(--surface-a);
-$panel-content-bg-color: #2e2e2e; // ALSO surface A but has dependencies that require actual color
+// TODO: This is also used by the menubar so now it looks weird but honestly kinda matches
+$panel-header-bg-color: var(--surface-b);
+$panel-content-bg-color: #252525; // ALSO surface A but has dependencies that require actual color
 $menu-bg-color: var(--surface-a);
 $surface-hover-bg-color: var(--surface-hover);
 

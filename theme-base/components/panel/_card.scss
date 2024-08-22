@@ -12,6 +12,7 @@
         font-size: $cardTitleFontSize;
         font-weight: $cardTitleFontWeight;
         margin-bottom: $inlineSpacing;
+        padding: $cardBodyPadding;
     }
 
     .p-card-subtitle {
