@@ -120,7 +120,7 @@ $actionIconColor: $textSecondaryColor;
 
 /// Backgroun of an action icon in hover state
 /// @group general
-$actionIconHoverBg: #e9ecef;
+$actionIconHoverBg: $surface-hover-bg-color;
 
 /// Border of an action icon in hover state
 /// @group general

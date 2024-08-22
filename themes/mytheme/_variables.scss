@@ -38,6 +38,9 @@ $table-hover-color: var(--surface-c);
 $skeletonBg: rgba(255, 255, 255, 0.06) !default;
 $skeletonAnimationBg: rgba(255, 255, 255, 0.04) !default;
 
+// MENU
+$menu-text-color: var(--primary-color);
+
 $gradient-bg: linear-gradient(45deg, $primaryColor 0%, black 20%, black 80%, $secondaryColor 100%);
 
 $colors: (
